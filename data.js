@@ -1,5 +1,6 @@
 var json_array = [
     {
+        "id": "1",
         "name": "ALASKA",
         "content": "100% ШЕРСТЬ",
         "footage": "70М",
@@ -9,6 +10,7 @@ var json_array = [
         "photo": "ALASKA.jpg"
     },
     {
+        "id": "2",
         "name": "ALPACA UNI COLOUR",
         "content": "100% АЛЬПАКА",
         "footage": "167М",
@@ -18,6 +20,7 @@ var json_array = [
         "photo": "ALPACA.jpg"
     },
     {
+        "id": "3",
         "name": "BELLE",
         "content": "53% ХЛОПОК, 33% ВИСКОЗА",
         "footage": "120М",
@@ -27,6 +30,7 @@ var json_array = [
         "photo": "BELLE.jpg"
     },
     {
+        "id": "4",
         "name": "BIG MERINO",
         "content": "100% ШЕРСТЬ",
         "footage": "75М",
@@ -36,6 +40,7 @@ var json_array = [
         "photo": "BIG_MERINO.jpg"
     },
     {
+        "id": "5",
         "name": "COTTON LIGHT",
         "content": "50% ХЛОПОК, 50% ПОЛИЭСТЕР",
         "footage": "105М",
@@ -45,6 +50,7 @@ var json_array = [
         "photo": "COTTON_LIGHT.jpg"
     },
     {
+        "id": "6",
         "name": "ESKIMO DEGRADE",
         "content": "100% ШЕРСТЬ",
         "footage": "50М",
@@ -54,6 +60,7 @@ var json_array = [
         "photo": "ESKIMO.jpg"
     },
     {
+        "id": "7",
         "name": "LIMA UNI COLOUR",
         "content": "65% ШЕРСТЬ, 35% АЛЬПАКА",
         "footage": "100М",
@@ -63,6 +70,7 @@ var json_array = [
         "photo": "LIMA.jpg"
     },
     {
+        "id": "8",
         "name": "DROPS LOVE YOU 5",
         "content": "100% ХЛОПОК",
         "footage": "75М",
@@ -72,6 +80,7 @@ var json_array = [
         "photo": "LOVE_YOU5.jpg"
     },
     {
+        "id": "9",
         "name": "MELODY",
         "content": "71% АЛЬПАКА, 25% ШЕРСТЬ, 4% ПОЛИАМИД ",
         "footage": "140М",
@@ -81,6 +90,7 @@ var json_array = [
         "photo": "MELODY.jpg"
     },
     {
+        "id": "10",
         "name": "NEPAL UNI COLOUR",
         "content": "65% ШЕРСТЬ, 35% АЛЬПАКА",
         "footage": "75М",
@@ -90,6 +100,7 @@ var json_array = [
         "photo": "NEPAL.jpg"
     },
     {
+        "id": "11",
         "name": "PEAK",
         "content": "70% АКРИЛ, 30% ШЕРСТЬ",
         "footage": "45М",
@@ -99,6 +110,7 @@ var json_array = [
         "photo": "PEAK.jpg"
     },
     {
+        "id": "12",
         "name": "POLARIS MIX",
         "content": "100% ШЕРСТЬ",
         "footage": "36М",
@@ -108,6 +120,7 @@ var json_array = [
         "photo": "POLARIS_MIX.jpg"
     },
     {
+        "id": "13",
         "name": "PUNA NATURAL",
         "content": "100% АЛЬПАКА",
         "footage": "110М",
@@ -117,6 +130,7 @@ var json_array = [
         "photo": "PUNA.jpg"
     },
     {
+        "id": "14",
         "name": "SAFRAN",
         "content": "100% ХЛОПОК ",
         "footage": "160М",
@@ -126,12 +140,13 @@ var json_array = [
         "photo": "SAFRAN.jpg"
     },
     {
+        "id": "15",
         "name": "VIVALDI",
         "content": "56% МОХЕР, 30% ПОЛИАМИД, 14% ШЕРСТЬ",
         "footage": "280М",
         "weight": "50Г",
         "description": "Рекомендуемый размер спиц 4 мм. Плотность вязания 10 х 10 см = 19п х 26р. Ручная стирка при 30°C",
-        "price": "",
+        "price": "200",
         "photo": "VIVALDI.jpg"
     }
 ]

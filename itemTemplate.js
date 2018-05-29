@@ -1,5 +1,5 @@
 function template(item) {
-    return `<div class="item">
+    return `<div class="item" id="item_${item.id}">
     <div class="item__image-container">
         <div>
             <img src="images/${item.photo}">
@@ -9,7 +9,7 @@ function template(item) {
         <div>
             <div class="content-container__name">
                 <h4>${item.name}</h4>
-                <div class="content-container__show-details">Показать описание</div>
+                <div  class="content-container__show-details">Показать описание</div>
             </div>
             <div class="details-container">
                 <div class="details-container__info">
@@ -24,6 +24,8 @@ function template(item) {
                     <div class="details-container__footage">
                         <span>Вес:</span>
                         <span>${item.weight}</span>
+                    </div>
+                    <div class="details-container__full-description">                        
                     </div>
                 </div>
                 <div class="details-container__sales-block">
