@@ -1,3 +1,24 @@
+.main{
+    margin: 0 33px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 20px;
+}
+
+.nav__refresh {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 15px;
+    padding-bottom: 7px;
+    font-size: 14px;
+    color: #256aa1;
+}
 
 .list-container__list {
     list-style-type: none;
@@ -22,11 +43,49 @@
 }
 
 .item__content-container {
-    width: 60%;
+    width: 100%;
 }
 
-.content-container__name {
+.content-container__header {
     border-bottom: solid #A9A9A9 1px;
+}
+
+.rating-box {
+    color: #f0f0f0;
+    margin: 0px 12px;
+    height: 5px;
+    width: 280px;
+}
+
+.rating-star {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    padding: 0 2px;
+    margin-bottom: 9px;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.full-star:before {
+    color: #f2b01e;
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+
+.empty-star:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+
+.name-stars {
+    display: flex;
+    align-items: center;
 }
 
 .content-container__show-details {
@@ -47,7 +106,7 @@
 
 .details-container__info {
     margin-top: 12px;
-    width: 55%;
+    width: 100%;
 }
 
 .details-container__info > div {
@@ -55,13 +114,13 @@
 }
 
 .details-container__sales-block {
-    width: 45%;
+    width: 600px;
 
     background-color: #fff;
     border: 1px solid #e1e1e1;
     padding: 13px 19px 18px 29px;
     border-radius: 3px;
-    margin: 12px;
+    margin: 12px 0px 12px 12px;
 }
 
 .sales-block__price {
@@ -88,4 +147,21 @@
     width: 100%;
     text-align: center;
     display: block;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
 }
